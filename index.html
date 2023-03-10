@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>School Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <style>
+      span {
+        color: orange;
+      }
+      .top-header {
+        padding: 10px;
+      }
+      .notice-sction {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .our-facility-sction {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .staff-sction {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .notice {
+        background-color: orange;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      .footer{
+        padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-header bg-dark">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h5 style="color: #fff; font-size: 15px">
+              Welcome to Shiksha.com
+            </h5>
+          </div>
+          <div class="col">
+            <h5 style="color: #fff; font-size: 15px">Call Now 01206681706</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="logo.jpg"
+                alt="Shiksha web solution"
+                style="width: 120px; height: auto"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+               <!-- <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About us</a>
+                </li>-->
+                
+
+                <li class="nav-item">
+                  <a class="nav-link" href="download.html">Download</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Puchlo
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="login.html">Ask Your Doubt</a></li>
+                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="main-slider">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          
+          
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="notice-sction">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 100%">
+              <h5 class="card-title notice">Notice Board</h5>
+              <div class="card-body">
+                <marquee direction="up">
+                  <p class="card-text">
+                    We would like to remind you for upcoming school event taking place this week on 11 March 2023 
+                  </p>
+                  <p class="card-text">
+                    All students are encouraged to attend and show support for their 
+                    fellow classmate.
+                  </p>
+                  <p class="card-text">
+                    Regular classes will be suspended on the day and
+                    attendance is mandatory for all the student.
+                  </p>
+                </marquee>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 100%">
+              <h5 class="card-title notice">Announcement</h5>
+              <div class="card-body">
+                <marquee direction="up">
+                  <p class="card-text">
+                    Result has been declared on date<br>
+                     of 29 March 2023.
+                  </p>
+                  <p class="card-text">
+                    New session will start on<br>
+                     3 April 2023 
+                  </p>
+                  <p class="card-text">
+
+                   All students have to wear summer uniform from <br>
+                   new session.
+
+
+                  </p>
+                
+                </marquee>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 100%">
+              <h5 class="card-title notice">News</h5>
+              <div class="card-body">
+                <marquee direction="up">
+                  <p class="card-text">
+                    PM’s address in Post Budget webinar on “Economic Empowerment of Women
+                  </p>
+                  <p class="card-text">
+                    Canada’s largest district school board votes to take action against caste oppression
+                  </p>
+                  <p class="card-text">
+                    4th Test, Day 2 Live: Axar Strikes As Khawaja Falls On 180; Aus 8 Down
+                  </p>
+                </marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us-sction">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Shiksha <span>Web Solution</span></h1>
+            <p>
+               If there is any solution Possible<br>
+               We have it,<br>
+
+               If not, We will discover it.
+            </p>
+
+            <h3>Technology Used in this Session:-</h3>
+            <ol>
+              <li>MS Office</li>
+              <li>HTML/CSS</li>
+              <li>Tynker</li>
+              <li>Scratch /Scratch Jr</li>
+              <li>MIT App Inventor</li>
+              <li>Photoshop-GIMP & Krita</li>
+              <li>Chatbot- Google  DialogFlow</li>
+              <li>Email Writing</li>
+              <li>E-card Design -Canva</li>
+              <li>3D- TinkerCad</li>
+            </ol>
+           
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+    <div class="staff-sction">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Our Mentor</h1>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 100%">
+              <img
+                src="./WhatsApp Image 2022-02-23 at 11.15.42 AM (2).jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Shweta </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 100%">
+              <img
+                src="./vivek.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vivek  </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 100%">
+              <img
+                src="./mithushree.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mithushree </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4 class="text-white">About Us</h4>
+            <p class="text-white">
+
+              We are an innovative Edtech website offering a range of tools and resources for students and mentors. Our mission is to enhance learning experience and promote academic success</p>
+          </div>
+          <div class="col">
+            <h4 class="text-white">Menu</h4>
+            <ul>
+              <li><a class="text-white" href="#">Home</a></li>
+              <li><a class="text-white" href="#">About Us</a></li>
+            
+            
+              <li><a class="text-white" href="#">Download</a></li>
+              <li><a class="text-white" href="#">Puchlo</a></li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h4 class="text-white">Contact Info</h4>
+            <ul style="list-style-type: none;">
+              <li class="text-white">Address: Noida</li>
+              <li class="text-white">Phone No.: 01206681706</li>
+              <li class="text-white">Email ID: teacher.solver@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col-md-12 text-center">
+            <p style="
+            border-top: 1px solid #fff;color:#fff;
+        ">All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
